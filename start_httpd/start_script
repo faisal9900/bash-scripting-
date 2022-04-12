@@ -1,0 +1,10 @@
+httpd:
+------
+start_httpd.sh   
+#!/usr/bin/bash
+sudo systemctl start httpd
+
+stop_httpd.sh
+#!/usr/bin/bash
+sudo systemctl stop httpd
+
